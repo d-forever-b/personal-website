@@ -1,6 +1,44 @@
+@font-face {
+    font-family: 'azonixregular';
+    src: url('../azonix_font/azonix-webfont.woff2') format('woff2'),
+         url('../azonix_font/azonix-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     background:#3A4145;
     color: white;
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    flex-basis: 40%
+}
+
+.text{
+    font-family: 'azonixregular';
+    font-size: 72px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+ul.social {
+    margin: 24px 0;
+    padding: 0;
+    font-size: 30px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+ }
+ ul.social li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+ }
+ ul.social li a { color: #fff; }
+ ul.social li a:hover { color: #11ABB0; }
