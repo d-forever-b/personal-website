@@ -6,15 +6,15 @@ header{
 ul.navbar{
     min-height: 48px;
     width: auto;
-    text-align: right;
+    text-align: center;
     padding-right: 20px;
 }
 ul.navbar li{
     position: relative;
     list-style: none;
-    height: 48px;
+    height: 30px;
     display: inline-block;
-    font-family: cursive;
+    font-family: serif;
 }
 ul.navbar li a{
     display: inline-block;
