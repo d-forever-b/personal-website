@@ -7,13 +7,14 @@
 }
 
 body{
-    background:#3A4145;
+    background:black;
     color: white;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .container{
+    
     display: flex;
     align-items: center;
 }
